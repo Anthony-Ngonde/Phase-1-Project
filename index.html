@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATHLETIC CLUB</title>
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <p class="logo-title">ATHLETIC CLUB</p>
+            <a href="#"><img src="Images/logo.jpeg" alt="logo"></a>
+        </div>
+    
+        <ul class="nav-links">
+            <li class="link"><a href="#home-section">Home</a></li>
+            <li class="link"><a href="#program-section">Program</a></li>
+            <li class="link"><a href="#service-section">Service</a></li>
+            <li class="link"><a href="#mealplan-section">Meal Plan</a></li>
+            <li class="link"><a href="#connect-section">ConnectHub</a></li>
+        </ul> 
+        <button class="button" id="signUpBtn">Sign Up</button>
+        
+    </nav>
+
+    <header class="section-container header-container" id="home-section">
+        <div class="header-content">
+          <span class="bg-blur"></span>
+          <span class="bg-blur header-blur"></span>
+        
+          
+            <h4>BECOME A BETTER YOU</h4>
+            <h1><span>INVEST</span> IN YOUR BODY</h1>
+            <p>Discover the ultimate fitness destination at our gym website. Offering state-of-the-art equipment, expert trainers, and personalized workout plans to help you achieve your fitness goals. Join us today for a healthier, stronger you!</p>
+            <button class="button" id="joinNowBtn">Join Now</button>
+
+        </div>
+        <div class="header-image">
+            <img src="Images/header.jpeg" alt="header" />
+        </div>
+    </header>
+
+      <!-- Popup Forms -->
+      <div id="signUpModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sign Up</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="joinNowModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Join Now</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="section-container explore-container" id="program-section">
+      <div class="explore-header">
+        <h2 class="section-header">OUR PROGRAM</h2>
+        <div class="explore-nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+      <div class="explore-grid">
+        <div class="explore-card">
+          <span><i class="ri-boxing-fill"></i></span>
+          <h4>Muscle Building</h4>
+          <p>
+            Unlock your potential with our muscle-building programs. Transform your physique and unleash your strength with expert guidance and cutting-edge equipment.
+          </p>
+          <a href="#">JOIN <i class="ri-arrow-right-line"></i></a>
+        </div>
+
+        <div class="explore-card">
+          <span><i class="ri-shopping-basket-fill"></i></span>
+          <h4>Weight Gain</h4>
+          <p>
+            Discover effective strategies to achieve healthy weight gain with our personalized training and nutrition plans. Build muscle mass and enhance your physique safely and efficiently.
+          </p>
+          <a href="#">JOIN <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore-card">
+          <span></i><i class="ri-run-line"></i></span>
+          <h4>Weight Loss</h4>
+          <p>
+            Lose weight, gain confidence. Our tailored workouts and nutrition plans empower you to shed pounds and transform your body. Start your journey to a healthier you today.
+          </p>
+          <a href="#">JOIN <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="explore-card">
+          <span><i class="ri-heart-pulse-line"></i></span>
+          <h4>Maintain Weight</h4>
+          <p>
+            Maintain your ideal weight effortlessly. Our comprehensive programs and support help you sustain your progress and enjoy a balanced lifestyle for lasting results.
+          </p>
+          <a href="#">JOIN <i class="ri-arrow-right-line"></i></a>
+        </div>
+        
+
+      </div>
+    </section>
+
+    <section class="section-container service-container" id="service-section">
+      <div class="service-image">
+        <img src="Images/class-1.jpeg" alt="service" class="service-img-1">
+      </div>
+      <div class="service-content">
+        <h2 class="section-header">THE SERVICES YOU WILL GET HERE</h2>
+        <p>
+          Our team of expert and motivational instructors provide a comprehensive fitness experience with state-of-the-art equipment, expert trainers, and personalized workout plans, ensuring members achieve their fitness goals effectively and enjoyably.
+        </p>
+        <button class="button" id="bookClassBtn">Book A Class</button>
+      </div>
+    </section>
+
+      <!-- Popup Form for Booking a Class -->
+      <div id="bookClassModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Book A Class</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="membership">Membership Grade:</label>
+                <select id="membership" name="membership">
+                    <option value="basic">Basic</option>
+                    <option value="premium">Premium</option>
+                    <option value="platinum">Platinum</option>
+                </select><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <section class="section-container price-container">
+      <h2 class="section-header">OUR PRICING PLAN</h2>
+      <p class="section-subheader">
+
+      Our gym offers competitive pricing with flexible membership options, providing access to top-notch facilities, expert trainers, and personalized workout plans at affordable rates.
+      </p>
+      <div class="price-grid">
+        <div class="price-card">
+          <div class="price-card-content">
+            <h4>Basic</h4>
+            <h3>ksh.1200</h3>
+            <ul>
+              <li>Smart workout plan</li>
+              <li>One Class</li>
+            </ul>
+          </div>
+          <butoon class="button price-btn">Book Now</button>
+        </div>
+
+        <div class="price-card">
+          <div class="price-card-content">
+            <h4>Premium</h4>
+            <h3>ksh.3500</h3>
+            <ul>
+              <li>Smart workout plan</li>
+              <li>A personal diet</li>
+              <li>10 classes</li>
+             
+            </ul>
+          </div>
+          <butoon class="button price-btn">Book Now</button>
+        </div>
+        <div class="price-card">
+          <div class="price-card-content">
+            <h4>Platinum</h4>
+            <h3>ksh.6500</h3>
+            <ul>
+              <li>Smart workout plan</li>
+              <li>Personal training</li>
+              <li>A personal diet</li>
+              <li>Over 30 classes</li>
+            </ul>
+          </div>
+          <butoon class="button price-btn">Book Now</button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Popup Form for Booking Now -->
+    <div id="bookNowModal" class="modal">
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Book Now</h2>
+          <form id="bookForm">
+              <label for="selectedPrice">Selected Price:</label>
+              <input type="text" id="selectedPrice" name="selectedPrice" readonly><br><br>
+              <label for="membership">Membership Plan:</label>
+              <select id="membership" name="membership">
+                  <option value="Day Pass">Day Pass</option>
+                  <option value="10 Days">10 Days</option>
+                  <option value="1 Month">1 Month</option>
+              </select><br><br>
+              <button type="submit">Submit</button>
+          </form>
+      </div>
+  </div>
+  <div>
+    
+      
+
+  <section class="section-container price-container" id="mealplan-section">
+    <h2 class="section-header">MEAL PLAN</h2>
+    <p class="section-subheader">
+      Unlock your potential with our personalized meal plans tailored to fuel your fitness journey. Our expert nutritionists craft balanced and delicious meals to optimize your performance and achieve your health goals. Whether you're aiming to build muscle, lose weight, or maintain a healthy lifestyle, our meal plans are designed to support you every step of the way. Elevate your training and nourish your body with our comprehensive meal plan solutions.
+    </p>
+
+    <div class="container mt-5" style="width: fit-content;">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search for a meal plan" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+   
+      <div class="col">
+        <div class="card">
+          <img src="/Images/High calorie meal.jpeg" class="card-img-top" alt="..."
+          height="250">
+          <div class="card-body">
+            <h5 class="card-title">WEIGHT GAIN</h5>
+            <p class="card-text">Boost your calorie intake with a balanced weight gain meal plan. Focus on nutrient-dense foods like lean proteins, whole grains, healthy fats, and plenty of fruits and vegetables. Eat smaller, frequent meals throughout the day to fuel muscle growth and achieve your weight gain goals.</p>
+            <a href="#" class="btn btn-primary">JOIN</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/Images/Low calorie meal.jpeg" class="card-img-top" alt="..."
+          height="250">
+          <div class="card-body">
+            <h5 class="card-title">WEIGHT LOSS</h5>
+            <p class="card-text">Kickstart your weight loss journey with our meal plan featuring nutritious, low-calorie options. Emphasize lean proteins, vegetables, and whole grains while minimizing processed foods and added sugars. Enjoy smaller, frequent meals to stay satisfied and energized throughout the day.</p>
+            <a href="#" class="btn btn-primary">JOIN</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/Images/Obese meal plan.jpeg" class="card-img-top" alt="..."
+          height="250">
+          <div class="card-body">
+            <h5 class="card-title">OBESE</h5>
+            <p class="card-text">Take control of your health with our obese meal plan, designed to promote sustainable weight loss. Focus on portion control, balanced meals rich in fiber, lean proteins, and healthy fats. Say goodbye to empty calories and embrace nutrient-dense foods to support your journey towards a healthier lifestyle.</p>
+            <a href="#" class="btn btn-primary">JOIN</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/Images/Maintain weight meal plan.jpeg" class="card-img-top" alt="..."
+          height="250">
+          <div class="card-body">
+            <h5 class="card-title">MAINTAIN WEIGHT</h5>
+            <p class="card-text">Maintain your ideal physique with our tailored maintain weight meal plan. Expertly crafted, this plan offers a balance of wholesome, satisfying meals to support your weight management goals without compromise. Enjoy a variety of nutrient-dense foods designed to keep you feeling energized and satisfied, all while maintaining your current weight effortlessly.</p>
+            <a href="#" class="btn btn-primary">JOIN</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/Images/Muscle meal plan.jpeg" class="card-img-top" alt="..."
+          height="250" style="object-fit: contain;">
+          <div class="card-body">
+            <h5 class="card-title">MUSCLE BUILDING</h5>
+            <p class="card-text">Transform your physique with our muscle-building meal plan. Crafted by nutrition experts, this plan delivers a powerhouse combination of high-protein, nutrient-dense meals designed to fuel your workouts and optimize muscle growth. Say hello  to gains as you indulge in delicious, muscle-building fare that supports your fitness goals and maximizes your potential.</p>
+            <a href="#" class="btn btn-primary">JOIN</a>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/Images/vegan.jpeg" class="card-img-top" alt="..."height="250">
+          <div class="card-body">
+            <h5 class="card-title">VEGETERIAN</h5>
+            <p class="card-text">Unlock the power of plants with our carefully curated vegan meal plan. Whether you're a seasoned vegan or simply looking to incorporate more plant-based meals into your diet, our plan provides a diverse range of delicious options to nourish your body and tantalize your taste buds.  Join us on a journey of culinary exploration and embrace the vibrant world of vegan cuisine</p>
+            <a href="#" class="btn btn-primary">JOIN</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer class="section-container footer-container" id="connect-section">
+      <span class="bg-blur"></span>
+      <span class="bg-blur footer-blur"></span>
+      <div class="footer-col">
+        <div class="footer-logo"><img src="Images/footer-logo.jpeg" alt="logo"></div>
+        <p>
+          Elevate your fitness journey with our comprehensive gym offerings. From state-of-the-art equipment to personalized training programs, we're dedicated to helping you achieve your fitness goals.
+        </p>
+        <div class="footer-socials">
+          <a href="#"><i class="ri-facebook-fill"></i></a>
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="#">Business</a>
+        <a href="#">Franchise</a>
+        <a href="#">Partnership</a>
+        <a href="#">Network</a>
+      </div>
+      <div class="footer-col">
+        <h4>About Us</h4>
+        <a href="#">Blogs</a>
+        <a href="#">Security</a>
+        <a href="#">Careers</a>
+        
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+       
+      </div>
+    </footer>
+    <div class="footer-bar">
+      Copywright Ⓒ 2024 Web Design Mastery. All rights reserved.
+    </div>
+
+  
+
+  
+<script src="./js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+  </html>
+
+  
+
+
+
+
+              
+       

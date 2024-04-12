@@ -1,0 +1,40 @@
+{
+    "mealPlans": [
+      {
+        "id": 1,
+        "goal": "Weight Gainer",
+        "description": "Meal plan designed for individuals aiming to gain weight. High-calorie meals included.",
+        "image": "Images/High calorie meal.jpeg"
+      },
+      {
+        "id": 2,
+        "goal": "Weight Loser",
+        "description": "Meal plan designed for individuals aiming to lose weight. Low-calorie, balanced meals included.",
+        "image": "Images/Low calorie meal.jpeg"
+      },
+      {
+        "id": 3,
+        "goal": "Obese",
+        "description": "Meal plan designed for individuals struggling with obesity. Emphasis on portion control and healthy choices.",
+        "image": "Images/Obese meal plan.jpeg"
+      },
+      {
+        "id": 4,
+        "goal": "Maintain Weight",
+        "description": "Meal plan designed for individuals aiming to maintain their current weight. Balanced meals included.",
+        "image": "Images/Maintain weight meal plan.jpeg"
+      },
+      {
+        "id": 5,
+        "goal": "Muscle Building",
+        "description": "Meal plan designed for individuals aiming to build muscle mass. High-protein meals included.",
+        "image": "Images/Muscle meal plan.jpeg"
+      },
+      {
+        "id": 6,
+        "goal": "Vegan",
+        "description": "Meal plan designed for individuals following a vegan lifestyle. Plant-based, nutrient-rich meals included.",
+        "image": "Images/vegan.jpeg"
+      }
+    ]
+  }
