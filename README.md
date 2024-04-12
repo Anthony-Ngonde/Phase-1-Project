@@ -45,21 +45,19 @@ Git clone https://github.com/Anthony-Ngonde/Phase-1-Project.git
 
 ...
 
-
-# Live Link
-[Git](gh-pages link)
-
-
 ## Technologies Used
 HTML: Used for structuring the content of the web pages.
 CSS: Used for styling the elements and layout of the website.
 JavaScript: Used for implementing interactive features and functionality.
 Bootstrap: Used for responsive design and layout components.
 
+# Live Link
+[Git](gh-pages link)
 
 ## Support and contact details
 https://github.com/anthony-ngonde
 
+### License
 
 
 
