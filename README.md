@@ -52,7 +52,7 @@ JavaScript: Used for implementing interactive features and functionality.
 Bootstrap: Used for responsive design and layout components.
 
 # Live Link
-[Git](gh-pages link)
+https://anthony-ngonde.github.io/Phase-1-Project/
 
 ## Support and contact details
 https://github.com/anthony-ngonde
