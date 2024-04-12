@@ -41,7 +41,7 @@ You use git clone to be able to download the documents in the Git Hub.
 Git
 
 ### Installation Instruction
-Git clone https://github.com/Anthony-Ngonde/Code-Challenge-Assignment.git
+Git clone https://github.com/Anthony-Ngonde/Phase-1-Project.git
 
 ...
 
